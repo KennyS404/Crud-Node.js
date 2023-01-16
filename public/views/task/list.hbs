@@ -1,0 +1,30 @@
+<title> List</title>
+<head>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+<body>
+    <h1>Form List</h1>
+    <a class="linkto" href="tasks/form"> Add task</a>
+   <ul>
+    {{#each this.tasks}}
+    <main  class="area-list">
+        <li class="item">
+            {{this.name}}
+            {{!-- {{this.id}} --}}
+        {{!-- <div class="item-button">
+            <button action="/tasks/delete" name="name" method="delete" class="delete"><i class="mdi mdi-delete"></i> Delete</button>
+        </div> --}}
+        </li>
+        
+    </main>
+    
+    {{/each}}
+   </ul>
+
+   
+        
+  
+
+
+</body>

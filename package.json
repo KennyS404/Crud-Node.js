@@ -1,0 +1,30 @@
+{
+  "name": "little-crud",
+  "version": "1.0.0",
+  "description": "Little project crud",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennyS404/Crud-Node.js.git"
+  },
+  "author": "KennyS404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennyS404/Crud-Node.js/issues"
+  },
+  "homepage": "https://github.com/KennyS404/Crud-Node.js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hapi": "^18.1.0",
+    "happi": "^0.9.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
+}

@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    background: #010200;
+}
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	color: white;
+}
+
+.buttonAction{
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 70%;
+	margin: auto auto;
+}
+
+input{
+	height: 100px;
+	font-size: 2rem;
+	width: 80%;
+	padding-left: 10%;
+
+}
+
+button.add{
+	width: 20%;
+	cursor: pointer;
+	background: gray;
+	color: white;
+	font-weight: bold;
+	border: none;
+	height: 100px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+button.add:hover{
+	background: #26B415;
+}
+
+
+.area-list{
+	color: aliceblue;
+	font-weight: 900;
+	font-family: serif;
+	display: flex;
+	flex-flow:row wrap;
+	width:90%;
+	margin:auto auto;
+}
+
+.linkto{
+	text-decoration: none;
+	font-size: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	color: aliceblue;
+	font-weight: 900;
+	font-family: serif;
+}
+.linkto:hover{
+	color: rgb(165, 159, 157);
+}
+
+.item{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	height: 80px;
+	width: 100%;
+	box-shadow: 0 0 20px #0A0B0A;
+	margin-bottom: 2%;
+	cursor: pointer;
+	background: #484948;
+	
+}
+
+
+/* 
+.delete{
+	background: red;
+	color: white;
+	border: none;
+	padding: 10px;
+	height: 80px;
+	width: 100%;
+} */
+
+.mdi-check-circle{
+	color: black;
+}
